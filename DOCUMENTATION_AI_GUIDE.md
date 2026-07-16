@@ -456,10 +456,10 @@ section:
 **ALWAYS use these current versions. Do not hallucinate or guess.**
 
 #### Kubernetes Infrastructure
-- **Kubernetes:** `1.33.5` (via Kubespray 2.29.1)
-- **etcd:** `3.5.22`
-- **containerd:** `2.1.4`
-- **Calico CNI:** `3.30.3`
+- **Kubernetes:** `1.35.4` (via Kubespray 2.31.0)
+- **etcd:** `3.6.10`
+- **containerd:** `2.2.3`
+- **Calico CNI:** `3.31.5`
 
 #### Akash
 - **Akash Node:** `v1.1.0`
@@ -1052,9 +1052,9 @@ kubectl get nodes
 **Expected output:**
 \```
 NAME     STATUS   ROLES           AGE   VERSION
-node1    Ready    control-plane   5m    v1.33.5
-node2    Ready    <none>          5m    v1.33.5
-node3    Ready    <none>          5m    v1.33.5
+node1    Ready    control-plane   5m    v1.35.4
+node2    Ready    <none>          5m    v1.35.4
+node3    Ready    <none>          5m    v1.35.4
 \```
 
 ---

@@ -81,8 +81,8 @@ jobs:
         run: |
           # Configure git
           gh auth login --with-token <<< "${{ secrets.GITHUB_TOKEN }}"
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # Stash any uncommitted changes
           git stash --include-untracked
@@ -113,8 +113,8 @@ jobs:
         run: |
           # Configure git
           gh auth login --with-token <<< "${{ secrets.GITHUB_TOKEN }}"
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           if [[ "${{ steps.check-pr.outputs.pr_exists }}" -gt "0" ]]; then
             echo "Merging existing PR #${{ steps.check-pr.outputs.pr_number }}..."

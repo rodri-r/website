@@ -43,11 +43,11 @@ There are three ways to become an Akash provider, each suited for different use 
 **Features:**
 - Full control over every aspect
 - Maximum customization
-- Production-grade setup with Kubernetes 1.33.5
+- Production-grade setup with Kubernetes 1.35.4
 - Best for large deployments
 
 **Includes:**
-- Kubernetes cluster setup with Kubespray 2.29.1
+- Kubernetes cluster setup with Kubespray 2.31.0
 - Provider installation with Helm
 - GPU support configuration
 - Persistent storage setup

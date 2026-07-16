@@ -10,10 +10,12 @@ export const redirects = {
   "/community/akash-validators": "/network/akash-validators/",
   "/about/providers/": "/ecosystem/providers/",
   "/about/providers": "/ecosystem/providers/",
+  "/about/network-capacity/": "/ecosystem/network-capacity/",
+  "/about/network-capacity": "/ecosystem/network-capacity/",
   "/development/current-projects": "/roadmap/",
   "/ecosystem": "/ecosystem/akash-tools/latest/",
   "/development": "/development/welcome/overview/",
-  "/community": "/community/akash-insiders/",
+  "/community": "/community/welcome/",
   "/about": "/about/general-information/",
   "/blog/a/acc-akash-accelerationism": "/blog/a-acc-akash-accelerationism/",
   "/community/events/upcoming": "/community/events/",
@@ -49,4 +51,8 @@ export const redirects = {
   "/docs/deployments/akash-cli/overview/": "/docs/developers/deployment/",
   "/docs/deployments/akash-cli/cli-booster/": "/docs/developers/deployment/",
   "/docs/deployments/akash-cli/installation/": "/docs/developers/deployment/",
+  "/docs/developers/deployment/akash-console/with-wallet":
+    "/docs/developers/deployment/console-air/",
+  "/docs/developers/deployment/akash-console/with-wallet/":
+    "/docs/developers/deployment/console-air/",
 };

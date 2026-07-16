@@ -1,7 +1,7 @@
 ---
 categories: ["API Documentation", "Console API"]
 tags: ["Console", "API", "Managed Wallet", "REST API"]
-weight: 3
+weight: 2
 title: "Managed Wallet API"
 linkTitle: "Managed Wallet API"
 description: "Deploy on Akash programmatically without managing wallets or private keys"
@@ -43,12 +43,7 @@ Authentication: pass your API key in every request with `x-api-key: YOUR_API_KEY
 
 ## Changelog
 
-| Date | Version | Change |
-|---|---|---|
-| 2024-01-01 | v2 | Added `/v2/deployment-settings` with auto top-up support |
-| 2023-xx-xx | v1 | Initial release of `/v1/deployments`, bids, leases |
-
-[Full GitHub releases](https://github.com/akash-network/console/releases)
+See the [full GitHub releases](https://github.com/akash-network/console/releases) for the authoritative version history.
 
 ---
 

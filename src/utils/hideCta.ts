@@ -5,6 +5,13 @@ export const hiddenPaths = [
   "/gpus-on-demand",
   "/case-studies/",
   "/blog/",
+  "/development/welcome",
+  "/development/integrations",
+  "/development/startups",
+  "/development/universities",
+  "/development/funding-program",
+  "/development/community-groups",
+  "/ecosystem/akash-tools",
 ];
 
 export const shouldHideCta = (pathname: string) => {

@@ -4,10 +4,10 @@ tags: ["Kubernetes", "Cluster Setup", "Infrastructure", "Kubespray"]
 weight: 1
 title: "Kubernetes Cluster Setup with Kubespray"
 linkTitle: "Kubernetes Setup"
-description: "Deploy a production-grade Kubernetes cluster using Kubespray 2.29.1"
+description: "Deploy a production-grade Kubernetes cluster using Kubespray 2.31.0"
 ---
 
-**Deploy Kubernetes 1.33.5 using Kubespray for your Akash provider.**
+**Deploy Kubernetes 1.35.4 using Kubespray for your Akash provider.**
 
 This guide walks through deploying a production-ready Kubernetes cluster that will host your Akash provider. The cluster will run all provider leases as Kubernetes pods.
 
@@ -17,22 +17,22 @@ This guide walks through deploying a production-ready Kubernetes cluster that wi
 
 ## What You'll Deploy
 
-Using Kubespray 2.29.1, you'll install:
+Using Kubespray 2.31.0, you'll install:
 
-- **Kubernetes 1.33.5** - Container orchestration
-- **etcd 3.5.22** - Distributed key-value store
-- **containerd 2.1.4** - Container runtime
-- **Calico 3.30.3** - Container networking (CNI)
+- **Kubernetes 1.35.4** - Container orchestration
+- **etcd 3.6.10** - Distributed key-value store
+- **containerd 2.2.3** - Container runtime
+- **Calico 3.31.5** - Container networking (CNI)
 
 ---
 
 ## Before You Begin
 
 Ensure you have:
-- **Reviewed [Hardware Requirements](/docs/providers/getting-started/hardware-requirements)
-- **Ubuntu 24.04 LTS installed on all nodes
-- **Root or sudo access to all nodes
-- **Network connectivity between all nodes
+- **Reviewed [Hardware Requirements](/docs/providers/getting-started/hardware-requirements)**
+- **Ubuntu 24.04 LTS installed on all nodes**
+- **Root or sudo access to all nodes**
+- **Network connectivity between all nodes**
 
 ---
 
@@ -42,11 +42,11 @@ Clone Kubespray on a control machine (not on the cluster nodes themselves):
 
 ```bash
 cd ~
-git clone -b v2.29.1 --depth=1 https://github.com/kubernetes-sigs/kubespray.git
+git clone -b v2.31.0 --depth=1 https://github.com/kubernetes-sigs/kubespray.git
 cd kubespray
 ```
 
-> **Note:** We use Kubespray 2.29.1 which includes Kubernetes 1.33.5
+> **Note:** We use Kubespray 2.31.0 which includes Kubernetes 1.35.4
 
 ---
 

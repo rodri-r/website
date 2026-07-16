@@ -62,6 +62,7 @@ export const developmentItems: NavItem[] = [
     description: "Homebase for building on Akash.",
     link: "/development/welcome/",
   },
+  // Column 2
   {
     customIcon: (
       <svg
@@ -83,6 +84,11 @@ export const developmentItems: NavItem[] = [
     title: "Roadmap",
     description: "See what's shipping next.",
     link: "roadmap",
+  },
+  {
+    title: "Integrations",
+    description: "Build with SDKs and APIs.",
+    link: "/development/integrations/",
   },
   {
     customIcon: (
@@ -116,9 +122,20 @@ export const developmentItems: NavItem[] = [
         />
       </svg>
     ),
-    title: "Engineering Syncs",
+    title: "Community Syncs",
     description: "Join live dev calls and technical groups.",
     link: "/development/community-groups/",
+  },
+  // Column 3
+  {
+    title: "Startups",
+    description: "Scale without the cloud tax.",
+    link: "/development/startups/",
+  },
+  {
+    title: "Universities",
+    description: "Open compute for open research.",
+    link: "/development/universities/",
   },
   {
     customIcon: (
@@ -143,7 +160,7 @@ export const developmentItems: NavItem[] = [
         <path d="M3 11.5H21" stroke="currentColor" strokeWidth="1.5" />
       </svg>
     ),
-    title: "Funding & Grants",
+    title: "Grants",
     description: "Get funded to build on the open cloud.",
     link: "/development/funding-program/",
   },
@@ -254,11 +271,10 @@ export const ecosystemNavItems: NavItem[] = [
       </svg>
     ),
     title: "Product Suite",
-    description: "Tools to deploy, serve, and provide compute.",
+    description: "Tools to deploy, serve & provide compute.",
     link: "/ecosystem/akash-tools/",
   },
   {
-    description: "Apps and services built on Akash",
     customIcon: (
       <svg
         width="24"
@@ -317,7 +333,7 @@ export const ecosystemNavItems: NavItem[] = [
   {
     icon: Codesandbox,
     title: "Compute Providers",
-    description: "Global hardware competing for your workloads.",
+    description: "Global hardware for your workloads.",
     link: "/ecosystem/providers/",
   },
 ];

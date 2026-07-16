@@ -185,7 +185,7 @@ version: "2.0"
 
 services:
   node:
-    image: ghcr.io/akash-network/cosmos-omnibus:v1.2.35-akash-v1.1.0
+    image: ghcr.io/akash-network/cosmos-omnibus:v1.2.43-akash-v2.0.1
     env:
       - MONIKER=my-validator  # Change this
       - CHAIN_JSON=https://raw.githubusercontent.com/akash-network/net/main/mainnet/meta.json
@@ -593,8 +593,8 @@ sudo journalctl -u tmkms -f --lines 50
 ```
 
 **Look for:**
-- **`connected to validator successfully`
-- **Signing messages (height increasing)
+- **`connected to validator successfully`**
+- **Signing messages (height increasing)**
 
 ### Check Akash Validator Logs
 
@@ -605,9 +605,9 @@ In [Akash Console](https://console.akash.network):
 3. Select **"node"** service
 
 **Look for:**
-- **`executed block height=...`
-- **`committed state height=...`
-- **Height increasing continuously
+- **`executed block height=...`**
+- **`committed state height=...`**
+- **Height increasing continuously**
 
 ### Check Stunnel Proxy Logs
 
@@ -637,7 +637,7 @@ On your local machine (with `akash` CLI). Ensure **`jq`** is installed (`curl` i
 export AKASH_META_URL="${AKASH_META_URL:-https://raw.githubusercontent.com/akash-network/net/main/mainnet/meta.json}"
 export AKASH_CHAIN_ID="$(curl -sSf "$AKASH_META_URL" | jq -r '.chain_id')"
 export AKASH_NODE="$(curl -sSf "$AKASH_META_URL" | jq -r '.apis.rpc[0].address')"
-so export AKASH_KEYNAME=<your-key-name>
+export AKASH_KEYNAME=<your-key-name>
 export AKASH_GAS=auto
 export AKASH_GAS_ADJUSTMENT=1.25
 export AKASH_GAS_PRICES=0.025uakt

@@ -263,6 +263,42 @@ provider-services tx market lease close \
 
 ---
 
+### Lease Close Reasons
+
+When querying a closed lease, the response includes a `reason` field indicating why the lease was closed. This is useful for diagnosing unexpected lease closures.
+
+```bash
+provider-services query market lease get \
+  --owner <address> \
+  --dseq <deployment-id> \
+  --gseq <group-sequence> \
+  --oseq <order-sequence> \
+  --provider <provider-address>
+```
+
+**Example response:**
+```json
+{
+  "lease": {
+    "state": "closed",
+    "reason": "lease_closed_reason_insufficient_funds"
+  }
+}
+```
+
+**Reason Codes:**
+
+| Reason | Initiated By | Description |
+|--------|--------------|-------------|
+| `lease_closed_owner` | Tenant | The deployment owner submitted a lease close transaction. |
+| `lease_closed_reason_manifest_timeout` | Provider | The manifest was not sent to the provider within the required time window after lease creation. |
+| `lease_closed_reason_unstable` | Provider | The deployment workloads were unstable, for example due to an invalid or unresolvable container image. |
+| `lease_closed_reason_decommission` | Provider | The provider is being decommissioned. |
+| `lease_closed_reason_unspecified` | Provider | The provider closed the lease without specifying a reason. |
+| `lease_closed_reason_insufficient_funds` | Network | The tenant's account balance was insufficient to continue paying the provider. |
+
+---
+
 ## Provider Commands
 
 ### List Providers
@@ -315,13 +351,13 @@ provider-services tx cert generate client \
 ```
 
 **Flags:**
-- `--override` - Overwrite existing certificate if one exists
+- `--overwrite` - Overwrite existing certificate if one exists
 
-**Example with override:**
+**Example with overwrite:**
 ```bash
 provider-services tx cert generate client \
   --from $AKASH_KEY_NAME \
-  --override
+  --overwrite
 ```
 
 ---
@@ -333,16 +369,6 @@ Publish your certificate to the blockchain.
 ```bash
 provider-services tx cert publish client \
   --from $AKASH_KEY_NAME
-```
-
-**Flags:**
-- `--override` - Overwrite existing certificate if one exists
-
-**Example with override:**
-```bash
-provider-services tx cert publish client \
-  --from $AKASH_KEY_NAME \
-  --override
 ```
 
 ---
@@ -500,7 +526,7 @@ provider-services query bank balances akash1... \
 Get account information.
 
 ```bash
-provider-services query account <address> \
+provider-services query auth account <address> \
 ```
 
 ---

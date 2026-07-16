@@ -21,9 +21,8 @@ The goal of this SIG is to ensure that AKT, the utility token of Akash Network, 
 
 ## Meetings
 
-Meetings happen every [First Wednesday of the Month](https://calendar.google.com/calendar/u/0?cid=Y18yNWU1ZTM3NDhlNGM0YWI3YTU1ZjQxZmJjNWViZWJjYzBhMDNiNDBmYjAyODc4NWYxNDE1OWJmYWViZWExMmUyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+Meetings usually happens every [First Wednesday of the Month](https://calendar.google.com/calendar/u/0?cid=Y18yNWU1ZTM3NDhlNGM0YWI3YTU1ZjQxZmJjNWViZWJjYzBhMDNiNDBmYjAyODc4NWYxNDE1OWJmYWViZWExMmUyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
-## Next Meeting: February 5th, 2025
 
 | Meeting | Time                                                    | Notes                                                                                                 | Transcript                                                                                                       | Recording                                                                                                                    |
 | ------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -55,18 +54,29 @@ Meetings happen every [First Wednesday of the Month](https://calendar.google.com
 | #26     | April, 2025 09:00 AM PT (Pacific Time)  | [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/026-2025-04-09.md)| [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/026-2025-04-09.md#transcript) |[Link](https://4tkm5q4i4omrhk7qdaxeyuipc2lq4ybgp2cptu3tnwun5s7exsba.arweave.net/5NTOw4jjmROr8BguTFEPFpcOYCZ-hPnTc22o3svkvII) 
 | #27     | May, 2025 09:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/027-2025-05-07.md)  |[Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/027-2025-05-07.md#transcript)  |[Link](https://cst3xanrbakkhg74gd5lycqvevowalok3sgq6kxvjinx4o3zwkxa.arweave.net/FKe7gbEIFKOb_DD6vAoVJV1gLcrcjQ8q9Uobfjt5sq4) 
 | #28     | June 11 , 2025 09:00 AM PT (Pacific Time)   | [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/028-2025-06-11.md)  | [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/028-2025-06-11.md#transcript) |[Link](https://fgboa54donkxag6s6nvarskqxgwlzk4lny2hgqgc4py6u7qpkp7a.arweave.net/KYLgd4NzVXAb0vNqCMlQuay8q4tuNHNAwuPx6n4PU_4)  
-| #29     | July 9th, 2025 09:00 AM PT (Pacific Time)                   |                                                                                                       |                                                                                                                  |
-| #30     | August, 2025 09:00 AM PT (Pacific Time)                 |                                                                                                       |                                                                                                                  |
-| #31     | September, 2025 09:00 AM PT (Pacific Time)              |                                                                                                       |                                                                                                                  |
-| #32     | October, 2025 09:00 AM PT (Pacific Time)                |                                                                                                       |                                                                                                                  |
-| #33     | November, 2025 09:00 AM PT (Pacific Time)               |                                                                                                       |                                                                                                                  |
-| #34     | December, 2025 09:00 AM PT (Pacific Time)               |                                                                                                       |                                                                                                                  |
+| #29     | July 09, 2025 09:00 AM PT (Pacific Time)    | [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/029-2025-07-09.md) | [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/029-2025-07-09.md#transcript)   |[Link](https://a73ixywfpjvmnmcddpd3mgee3amimpfojbdzhhnuenohlqa2wrla.arweave.net/B_aL4sV6asawQxvHthiE2BiGPK5IR5OdtCNcdcAatFY) 
+| #30     | August 06, 2025 09:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/030-2025-08-06.md)  |  [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/030-2025-08-06.md#transcript) |[Link](https://7q6b42az66vpcnyw5ppzag7bm3k2trtqeq5hiokyxxkgrk5aajpq.arweave.net/_DweaBn3qvE3FuvfkBvhZtWpxnAkOnQ5WL3UaKugAl8)  
+| #31     | September, 2025 09:00 AM PT (Pacific Time)  |  [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/031-2025-09-03.md)   |   [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/031-2025-09-03.md#transcript)   |[Link](https://4n52hef67b4x6azrqwtdrnw7jdfsitxoo73myjoyamamkdk7iweq.arweave.net/43ujkL74eX8DMYWmOLbfSMskTu539swl2AMAxQ1fRYk)  
+| #32     | October 22, 2025 09:00 AM PT (Pacific Time) | [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/032-2025-10-22.md)                                                                                                      | [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/032-2025-10-22.md#transcript)                                                                                                                 |[Link](https://hlfrbsbs4v5rq5uiu33b5bguamyixfc4zfywqqfeymqxdrzcpw2q.arweave.net/OssQyDLlexh2iKb2HoTUAzCLlFzJcWhApMMhcccifbU)
+| #33     | December 10, 2025 09:00 AM PT (Pacific Time)               |      [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/034-2025-12-10.md)  |     [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/034-2025-12-10.md#transcript)  |[Link](https://bfmhhr5cnfea34pyyvd7jsfrqmyobiorlgaadrpr6dqifb5lmvza.arweave.net/CVhzx6JpSA3x-MVH9MixgzDgodFZgAHF8fDggoerZXI)  
+| #34     | February 4, 2026 09:00 AM PT (Pacific Time)               |       [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/034-2026-02-04.md)    |[Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/034-2026-02-04.md#transcript)   |[Link](https://jwowjkclhmtxjzmawcmhpbfrprl2ygks3dr2su3wkgv7zka654jq.arweave.net/TZ1kqEs7J3TlgLCYd4SxfFesGVLY46lTdlGr_Kge7xM)   
+| #35     | March 11, 2026 09:00 AM PT (Pacific Time)               |   [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/035-2026-03-11.md)   | [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/035-2026-03-11.md#transcript)     |  Coming Soon
+| #36     | April 28, 2026 09:00 AM PT (Pacific Time)               |  [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/036-2026-04-28.md)      |   [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/036-2026-04-28.md#Transcript)   | [Link](https://ry63uruulvwn6ewqhce6wskn5mog4qghyoeuj7ibudtfujpd2m2q.arweave.net/jj26RpRdbN8S0DiJ60lN6xxuQMfDiUT9AaDmWiXj0zU)
+| #37     | May, 2026 09:00 AM PT (Pacific Time)               |     [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/037-2026-05-20.md)          |  [Link](https://github.com/akash-network/community/blob/main/sig-economics/meetings/037-2026-05-20.md#Transcript)       | [Link](https://mnbok44keuxqkbecywkzziekpozsixoaef3tnyi3ikdsygpcmtea.arweave.net/Y0Llc4olLwUEgsWVnKCKe7MkXcAhdzbhG0KHLBniZMg)   
+| #38     | June, 2026 09:00 AM PT (Pacific Time)               |                 |     |
+| #39     | July, 2026 09:00 AM PT (Pacific Time)               |                 |     |
+| #40     | August, 2026 09:00 AM PT (Pacific Time)               |                 |     |
+| #41     | September, 2026 09:00 AM PT (Pacific Time)               |                 |     |
+| #42     | October, 2026 09:00 AM PT (Pacific Time)               |                 |     |
+| #43     | Novemeber, 2026 09:00 AM PT (Pacific Time)               |                 |     |
+| #44     | December, 2026 09:00 AM PT (Pacific Time)               |                 |     |
+
+
 
 ## Leadership
 
 ### Special Interest Group Meeting Leads:
 
-- Scott Hewitson, Director of Finance Overclock Labs
 - Cheng Wang, CFO Overclock Labs
 
 ## Contact
@@ -77,4 +87,4 @@ Meetings happen every [First Wednesday of the Month](https://calendar.google.com
 
 The following are projects and work-groups that sig-economics participates in or contributes to:
 
-- [wg-economics-2.0](../wg-economics-20)
+- [wg-economics-2.0](../wg-economics-2.0)
